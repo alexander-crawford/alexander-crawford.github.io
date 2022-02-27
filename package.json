@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "portfolio website",
+  "main": "www/js/script.js",
+  "scripts": {
+    "start": "ln -f node_modules/bootstrap/dist/js/bootstrap.min.js www/js/bootstrap.min.js;sass scss/custom.scss www/css/bootstrap.min.css;minify www/css/bootstrap.min.css -o www/css/bootstrap.min.css"
+  },
+  "author": "Alexander Crawford",
+  "license": "",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
