@@ -3,6 +3,26 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
+$jet: #363537ff;
+$emerald: #0cce6bff;
+$pear: #dced31ff;
+$red-crayola: #ef2d56ff;
+$mango-tango: #ed7d3aff;
+$blue-munsell: #3b8ea5ff;
+$usafa-blue: #26547cff;
+$seashell: #fff3f0ff;
+
+
+$primary : $blue-munsell;
+$secondary : $usafa-blue;
+$success : $emerald;
+$info : $mango-tango;
+$warning : $pear;
+$danger : $red-crayola;
+$light : $seashell;
+$dark : $jet;
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
