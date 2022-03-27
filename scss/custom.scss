@@ -26,3 +26,7 @@ $dark : $jet;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+.mw-md{
+  max-width:768px
+}
