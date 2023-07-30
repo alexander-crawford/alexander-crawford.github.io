@@ -4,7 +4,7 @@
   "description": "portfolio website",
   "main": "www/js/script.js",
   "scripts": {
-    "start": "ln -f node_modules/bootstrap/dist/js/bootstrap.min.js www/js/bootstrap.min.js;sass scss/custom.scss www/css/bootstrap.min.css;minify www/css/bootstrap.min.css -o www/css/bootstrap.min.css"
+    "start": "sudo apt install sass minify -y ; ln -f node_modules/bootstrap/dist/js/bootstrap.min.js js/bootstrap.min.js ; sass scss/custom.scss css/bootstrap.min.css ; minify css/bootstrap.min.css -o css/bootstrap.min.css ; minify index.html -o index.html"
   },
   "author": "Alexander Crawford",
   "license": "",
